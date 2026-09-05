@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 10000;
 
 // ─── PEER NODES TO PROBE ───
 const PEERS = [
-  'mumbai', 'singapore', 'tokyo', 'sydney',
+  'mumbai', 'delhi', 'singapore', 'tokyo', 'sydney',
   'dubai', 'london', 'frankfurt', 'virginia', 'california',
   'brazil', 'southafrica'
 ].filter(p => p !== NODE_ID);
